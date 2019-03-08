@@ -7,4 +7,6 @@ RUN cd /tmp \
     && ./configure \
     && make -j2 \
     && make install
-
+    && cd /tmp
+    && rm v2.2.6.1.tar.gz
+    && rm -rf muparser-2.2.6.1
